@@ -1,21 +1,24 @@
 {
-  "name": "byui-acm",
-  "version": "0.1.0",
-  "description": "",
+  "name": "byuiacm.github.io",
+  "version": "1.0.0",
+  "description": "BYUI ACM Student chapter homepage",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
-  },
-  "dependencies": {
-    "ejs": "^2.6.1",
-    "express": "^4.13.3"
-  },
-  "engines": {
-    "node": "4.0.0"
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
+    "url": "git+https://github.com/byuiacm/byuiacm.github.io.git"
   },
-  "license": "MIT"
+  "author": "BYUI ACM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byuiacm/byuiacm.github.io/issues"
+  },
+  "homepage": "https://github.com/byuiacm/byuiacm.github.io#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
 }
