@@ -1,0 +1,37 @@
+<%- include('../modules/header'); %>
+
+<main>
+  <div class="greeting">
+    <p id="welcome">Welcome to ACM.</p>
+    <a href="/register">Join us</a>
+    <a href="/calendar">Calendar</a>
+    <div>
+      <a href="https://byui.zoom.us/j/7106212153">Zoom Link</a>
+      Regular Meeting Time: 10:15 a.m., Every Friday
+    </div>
+  </div>
+ 
+  <div class="featured">
+    <img class="featured-img" src="media/MeetwithClements.png" alt="Hack at Home" onclick="link()">
+  </div>
+</main>
+<script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
+<script type="text/javascript">
+  var app = document.getElementById('welcome');
+
+  var typewriter = new Typewriter(app, {
+      loop: true
+  });
+
+  typewriter.typeString('Welcome to ACM.')
+      .pauseFor(5500)
+      .deleteAll()
+      .typeString('Let\'s code.')
+      .pauseFor(2500)
+      .start();
+
+  function link(){
+    
+  }
+</script>
+<%- include('../modules/footer'); %>

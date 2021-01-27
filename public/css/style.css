@@ -1,0 +1,140 @@
+:root {
+  --blue-gradient: linear-gradient(#3333aa, #222288);
+}
+
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+
+h1 {
+  color: white;
+}
+
+header {
+  background: #fafafa;
+  padding: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.signup a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.logo img {
+  width: 50px;
+  padding: 6px;
+}
+
+.social img {
+  width: 30px;
+  padding: 20px 8px 0;
+}
+
+main {
+  padding-top: 50px;
+  background: var(--blue-gradient);
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.greeting {
+  box-shadow: -10px 10px 10px darkblue;
+  background: #fafafa;
+  padding: 40px;
+  width: 320px;
+  max-width: 90%;
+  color: darkblue;
+}
+
+.featured {
+  width: 100%;
+  box-shadow: -10px 10px 10px darkblue;
+  margin-top: 40px;
+}
+
+.featured-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.officer-card {
+  box-shadow: -10px 10px 10px darkblue;
+  background: #fafafa;
+  padding: 40px;
+  color: darkblue;
+  width: 200px;
+  margin: 5px;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.profile {
+  width: 200px;
+  border-radius: 200px;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2em;
+}
+
+p {
+  font-family: Roboto;
+  font-size: 1em;
+}
+
+#welcome {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2em;
+  text-align: center;
+}
+
+.greeting a {
+  display: block;
+  text-decoration: none;
+  border-radius: 40px;
+  border: 2px solid darkblue;
+  text-align: center;
+  margin: 20px 20px 0;
+  padding: 10px;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: darkblue;
+  font-family: Montserrat;
+}
+
+.greeting a:hover {
+  background: darkblue;
+  color: white;
+}
